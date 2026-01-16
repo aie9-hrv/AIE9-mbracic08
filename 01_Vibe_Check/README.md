@@ -45,12 +45,12 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested: Instruction following + clarity for beginners (correctness without jargon, simple analogy). 
+    - Aspect Tested: 
+    Instruction following + clarity for beginners (correctness without jargon, simple analogy). 
     Clarity in explaining a complex concept using simple language
     Knowledge structuring (examples, analogies)
     Adapting to the user’s knowledge level (beginner-friendly)
     
-
 2. Read the following paragraph and provide a concise summary of the key points…
     - Aspect Tested: 
     Text comprehension and identifying key information
@@ -164,14 +164,14 @@ Please make adjustments to your application that you believe will improve the vi
 
 #### 🏗️ Activity #1
 ##### Adjustments Made:
-- _describe adjustment(s) here_
+- My first prompt defined the assistant as a supportive mental coach and instructed it to keep responses very brief and helpful in 1–2 sentences. Since I wasn’t fully satisfied with the quality and consistency of the answers, I updated the prompt by expanding the response length to 2–4 short sentences and requiring a warm, grounded tone with a clear structure: first validate the user, then offer one clear suggestion and one tiny next step they can do today. I also added rules to ask at most one clarifying question only when necessary, avoid long explanations, lists, and unrelated topics, and strictly follow any user-requested word or character limits. Finally, I set scope boundaries (politely decline non-coaching requests and redirect), instructed the model not to guess when information is missing, to avoid judgment or moralizing, to respond appropriately to self-harm or immediate danger, and to always end with a complete final sentence.
 
 ##### Results:
-1. _Comment here how the change(s) impacted the vibe check of your system_
-2.
-3.
-4.
-5.
+1. Required response structure: It always starts with one sentence that validates the user’s situation, then provides one clear suggestion and one tiny next step the user can do today. This creates a more natural, human-sounding response and helps the user feel better understood and supported by the mental coach.
+2. Priority rules & scope limits: if the request is outside mental coaching (such as recipes, trivia, or real-time information), it politely declines and redirects back to practical support.
+3. Coaching perspective: Even when the user asks to simplify a concept or asks something practical like career decisions or planning a birthday surprise, the answer is always framed from a mental-coaching perspective—focusing on how the user can feel more grounded, clear, and confident, and suggesting a small, manageable action they can take to move forward.
+4. Response length & readability (quality improvement): The responses are now slightly longer, which improves their quality and clarity, but they still remain concise and easy to read without feeling too broad or overwhelming.
+5. One clarifying question rule: The assistant may ask at most one clarifying question, and only when key information is missing, which keeps the conversation focused and prevents the response from feeling overwhelming or interrogative.
 
 
 ## Submitting Your Homework
